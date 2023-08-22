@@ -13,5 +13,5 @@ user_input = st.text_input("質問を入力してください:")
 if user_input:
     st.write("考え中...")
 
-    answer = ChatGPT(user_input)
+    answer = ChatGPT().chat(user_input)
     st.write("回答:", answer)

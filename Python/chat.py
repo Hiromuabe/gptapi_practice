@@ -2,7 +2,7 @@ import openai
 import os
 
 class ChatGPT():
-    def __init__(self):
+    def __call__(self):
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         self.openai.api_key = self.chatopenai_api_key
     def chat(self,text):

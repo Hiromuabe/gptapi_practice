@@ -2,7 +2,8 @@
 
 ### Chat-GPT API利用コード
 
-- JS
-  - 
 - Python
-- 
+  - app.py
+    - streamlitによるアプリを動かす
+  - chat.py
+    - ChatGPTの基本的な動きをclassで定義
