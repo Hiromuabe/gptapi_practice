@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 import os
-
+# test
 def chat(text):
     res = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
